@@ -1,0 +1,36 @@
+.sidebar {
+  position: fixed;
+  z-index: 1000;
+  right: -100%;
+  background-color: white;
+  height: 100%;
+  padding: 20px 35px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  transition: all 0.3s linear;
+}
+
+.sidebar.open{
+    right: 0%;
+}
+
+.sidebar_elements .navlinks .link {
+  padding: 12px;
+  font-size: 18px;
+  
+}
+.sidebar_elements{
+    padding-top: 25px;
+}
+
+.sidebar_elements .button-link button{
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.sidebar_icon{
+    font-size: 35px;
+    position: relative;
+    top: 5px;
+    left: -20px;
+    cursor: pointer;
+}

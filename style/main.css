@@ -1,0 +1,141 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head-section {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #252420;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-section-container {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #252420;
+    gap: 20px;
+}
+
+.head_section_container_left {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.head-section-container-left-child:nth-child(1) span,
+.about-ackademik-nashr-header-child:nth-child(1) span {
+    display: flex;
+    width: 100px;
+    height: 1px;
+    border: 2px solid #FF7500;
+}
+
+.head-section-container-left-child h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.head-section-container-left-child p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.head-section-container-left-child-btn {
+    width: 150px;
+    height: 50px;
+    background-color: #FF7500;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    border: 1px solid #FF7500;
+}
+
+.head-section-container-left-child-btn:hover {
+    border: 1px solid #FF7500;
+    color: #FF7500;
+    background: none;
+}
+
+.head-section-container-right-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.head-section-container-right-img img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.about-ackademik-nashr-section {
+    width: 100%;
+    height: auto;
+    padding: 150px 0px;
+}
+
+.about-ackademik-nashr-header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-ackademik-nashr-header-child:nth-child(2) {
+    color: #000000;
+    width: 50%;
+    font-size: 35px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 150px 0 0 0;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    background-color: white;
+    border-radius: 8px;
+    height: 250px;
+    padding: auto;
+    width: 300px;
+}
+
+.feature h3 {
+    font-size: 25px;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #ffefde;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon .bx{
+    color: #FF7500;
+    font-size: 40px;
+}
