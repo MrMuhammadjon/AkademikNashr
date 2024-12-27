@@ -47,19 +47,33 @@
         font-size: 18px;
         color: #fff;
     }
+
+    .main-reklama-container-right-img img {
+        width: 400px;
+        height: 400px;
+        margin-top: -150px;
+    }
+    
+    .main-reklama-container {
+        padding: 20px 30px;
+    }
 }
 
 @media (max-width: 992px) {
     .head-section-container,
     .main-reklama-container {
         flex-direction: column;
-        gap: 100px;
+        gap: 80px;
     }
 
     .head_section_container_left,
     .head_section_container_right,
     .main-reklama-container_left {
         width: 100%;
+    }
+
+    .main-reklama {
+        margin-top: 0px;
     }
 
     .main-reklama-container-right-img img {
@@ -75,5 +89,9 @@
 
     .about-ackademik-nashr-header-child:nth-child(2) {
         font-size: 30px;
+    }
+
+    .main-reklama-container {
+        padding: 50px 70px;
     }
 }
