@@ -34,6 +34,7 @@ main {
 .main-reklama-container {
     border-radius: 20px;
     padding: 20px 100px;
+    max-width: 1200px;
 }
 
 .head_section_container_left,
