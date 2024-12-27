@@ -21,21 +21,9 @@
     }
 }
 
-@media (max-width: 768px) {
-    .right_head {
-        display: none;
-    }
-
-    .menu_icon {
-        display: block;
-    }
-
-    .about-ackademik-nashr-header-child:nth-child(2) h1{
-        font-size: 34px;
-    }
-}
 
 @media(max-width: 1200px) {
+
     .head-section-container-left-child h1,
     .main-reklama-container-left-child h1 {
         font-size: 35px;
@@ -43,7 +31,7 @@
     }
 
     .head-section-container-left-child p,
-    .main-reklama-container-left-child p  {
+    .main-reklama-container-left-child p {
         font-size: 18px;
         color: #fff;
     }
@@ -53,13 +41,14 @@
         height: 400px;
         margin-top: -150px;
     }
-    
+
     .main-reklama-container {
         padding: 20px 30px;
     }
 }
 
 @media (max-width: 992px) {
+
     .head-section-container,
     .main-reklama-container {
         flex-direction: column;
@@ -81,7 +70,7 @@
         height: 350px;
         margin-top: 0px;
     }
-    
+
 
     .features-container {
         justify-content: start;
@@ -93,5 +82,38 @@
 
     .main-reklama-container {
         padding: 50px 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    .right_head {
+        display: none;
+    }
+
+    .menu_icon {
+        display: block;
+    }
+
+    .about-ackademik-nashr-header-child:nth-child(2) h1{
+        font-size: 34px;
+    }
+
+    .main-reklama-container-left-child h1 {
+        font-size: 28px;
+    }
+
+    reklama-container-left-child p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-reklama-container-right-img img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .main-reklama-container {
+        padding: 50px 30px 0px 30px;
     }
 }
