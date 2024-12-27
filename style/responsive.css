@@ -21,7 +21,6 @@
     }
 }
 
-
 @media(max-width: 1200px) {
 
     .head-section-container-left-child h1,
@@ -94,7 +93,7 @@
         display: block;
     }
 
-    .about-ackademik-nashr-header-child:nth-child(2) h1{
+    .about-ackademik-nashr-header-child:nth-child(2) h1 {
         font-size: 34px;
     }
 
