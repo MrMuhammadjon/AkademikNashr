@@ -4,7 +4,8 @@ main {
     align-items: center;
 }
 
-.head-section {
+.head-section,
+.main-reklama {
     width: 100%;
     height: auto;
     padding: 50px 0px;
@@ -14,7 +15,13 @@ main {
     justify-content: center;
 }
 
-.head-section-container {
+.main-reklama {
+    margin-top: 50px;
+    background: none;
+}
+
+.head-section-container,
+.main-reklama-container {
     width: 90%;
     height: 100%;
     display: flex;
@@ -24,7 +31,13 @@ main {
     gap: 20px;
 }
 
-.head_section_container_left {
+.main-reklama-container {
+    border-radius: 20px;
+    padding: 20px 100px;
+}
+
+.head_section_container_left,
+.main-reklama-container_left {
     width: 40%;
     height: 100%;
     display: flex;
@@ -41,17 +54,20 @@ main {
     border: 2px solid #FF7500;
 }
 
-.head-section-container-left-child h1 {
+.head-section-container-left-child h1,
+.main-reklama-container-left-child h1 {
     font-size: 40px;
     color: #fff;
 }
 
-.head-section-container-left-child p {
+.head-section-container-left-child p,
+.main-reklama-container-left-child p {
     font-size: 20px;
     color: #fff;
 }
 
-.head-section-container-left-child-btn {
+.head-section-container-left-child-btn,
+.main-reklama-container-child-btn {
     width: 150px;
     height: 50px;
     background-color: #FF7500;
@@ -63,17 +79,15 @@ main {
     border: 1px solid #FF7500;
 }
 
-.head-section-container-left-child-btn:hover {
+.head-section-container-left-child-btn:hover,
+.main-reklama-container-child-btn:hover {
     border: 1px solid #FF7500;
     color: #FF7500;
     background: none;
 }
 
-.head-section-container-right-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
+.main-reklama-container-right {
+    position: relative;
 }
 
 .head-section-container-right-img img {
@@ -81,6 +95,29 @@ main {
     height: 90%;
     object-fit: cover;
 }
+
+.head-section-container-right-img,
+.main-reklama-container-right-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    position: relative;
+}
+
+.main-reklama-container-right-img{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-reklama-container-right-img img {
+    width: 500px;
+    height: 450px;
+    margin-top: -150px;
+}
+
 
 .about-ackademik-nashr-section {
     width: 100%;
@@ -135,7 +172,7 @@ main {
     align-items: center;
 }
 
-.icon .bx{
+.icon .bx {
     color: #FF7500;
     font-size: 40px;
 }

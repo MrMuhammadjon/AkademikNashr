@@ -16,9 +16,11 @@
   gap: 10px;
   align-items: center;
 }
+
 .left_head h1 span {
   color: var(--main_color);
 }
+
 .left_head h1 {
   font-size: 2rem;
 }
@@ -47,8 +49,8 @@
   border-bottom: 2px solid var(--main_color);
 }
 
-.menu_icon{
-    font-size: 40px;
-    display: none;
-    cursor: pointer;
+.menu_icon {
+  font-size: 40px;
+  display: none;
+  cursor: pointer;
 }

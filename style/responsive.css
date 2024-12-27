@@ -29,36 +29,45 @@
     .menu_icon {
         display: block;
     }
-    .about-ackademik-nashr-header-child:nth-child(2) {
-        font-size: 20px;
+
+    .about-ackademik-nashr-header-child:nth-child(2) h1{
+        font-size: 34px;
     }
 }
 
 @media(max-width: 1200px) {
-    .head-section-container-left-child h1 {
+    .head-section-container-left-child h1,
+    .main-reklama-container-left-child h1 {
         font-size: 35px;
         color: #fff;
     }
 
-    .head-section-container-left-child p {
+    .head-section-container-left-child p,
+    .main-reklama-container-left-child p  {
         font-size: 18px;
         color: #fff;
     }
 }
 
 @media (max-width: 992px) {
-    .head-section-container {
+    .head-section-container,
+    .main-reklama-container {
         flex-direction: column;
         gap: 100px;
     }
 
-    .head_section_container_left {
+    .head_section_container_left,
+    .head_section_container_right,
+    .main-reklama-container_left {
         width: 100%;
     }
 
-    .head_section_container_right {
-        width: 100%;
+    .main-reklama-container-right-img img {
+        width: 350px;
+        height: 350px;
+        margin-top: 0px;
     }
+    
 
     .features-container {
         justify-content: start;
