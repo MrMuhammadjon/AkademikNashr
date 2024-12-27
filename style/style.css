@@ -16,31 +16,32 @@
 .container {
   max-width: 1280px;
   margin: auto;
-  padding: 0 20px;
+  padding: 0 50px;
   width: 100%;
 }
 
-ul{
+ul {
   list-style: none;
 
 }
-a{
+
+a {
   text-decoration: none;
 }
 
-.button-link button{
+.button-link button {
   color: red;
   padding: 10px 18px;
   background: none;
   background-color: var(--main_color);
   color: white;
-  font-weight:500;
+  font-weight: 500;
   text-transform: capitalize;
   border-radius: 4px;
   border: none;
   cursor: pointer;
 }
 
-.button-link button:hover{
+.button-link button:hover {
   background: rgba(255, 136, 0, 0.781);
 }
